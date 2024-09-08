@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.spinner {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #3498db;
+    position: relative;
+    margin: 20px auto;
+    animation: spin 0s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
