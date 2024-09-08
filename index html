@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>স্পিনার ওয়েব অ্যাপ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>স্পিনার অ্যাপ</h1>
+        <div class="spinner" id="spinner"></div>
+        <button onclick="spin()">স্পিন করুন</button>
+        <div id="balance">ব্যালেন্স: 0 কয়েন</div>
+        <button onclick="task()">Task</button>
+        <button onclick="refer()">Refer</button>
+        <button onclick="withdraw()">Withdrawal</button>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
